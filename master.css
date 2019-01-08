@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+html, body {
+  margin: 0px;
+}
+
+#background {
+  background-image: linear-gradient(45deg, rgb(23, 19, 236), rgb(255, 51, 0));
+}
+
+.title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  margin: 0;
+  padding: 5px;
+  color: #ddd;
+  text-shadow: 1px 1px black;
+}
+
+.navbar {
+  text-align: left;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: inline-block;
+}
+
+.navbar b {
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  float: right;
+  display: inline-block;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  padding: none;
+}
+
+#b {
+  text-align-last: left;
+  font-size: 1px;
+}
+
+div.banner img {
+  width: 100%;
+  height: 200px;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.home-title {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+.home-image {
+  float: left;
+}
+
+.slides img {
+  widows: 100%;
+  padding: 0;
+  margin: 0;
+  height: auto;
+}
+
+.mySlides {
+  display: none;
+  width: 100%;
+  height: 500px;
+}
+
+.home-tutorials img {
+  float: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* Home page stangnant image*/
+
+.home-tutorials p {
+  padding: 30px;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* this is changing the look of the home page text */
+
+.home-link {
+  text-decoration: none;
+  padding: 5px;
+}
+
+/*remember to do activ where it is a color when it is active*/
+
+.Tutorials {
+  padding: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tutorial1 {
+  width: 298px;
+  height: auto;
+  border: 2px solid black;
+  margin: 8px 8px;
+  padding: 0 5px;
+  float: left;
+  text-decoration: none;
+  position: relative;
+}
+
+.Tutorials h4 {
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  text-decoration: none;
+  padding: 8px 8px;
+  margin: 5px;
+}
+
+.Tutorials tu:hover {
+  font: bold;
+}
+
+.internTutorials {
+  text-align: center;
+  margin: 0;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Tutorials img {
+  transition: filter 1s;
+}
+
+.Tutorials img:hover {
+  filter: brightness(10%);
+}
+
+.centered-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: black;
+}
+
+.Tutorial1:hover .centered-text {
+  opacity: 0.85;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+}
+
+.text-image {
+  width: 50%;
+  height: auto;
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+.Information h1 {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+div.centered-text {
+  position: absolute;
+  text-align: center;
+}
+
+div.centered-text>p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.profile {
+  background-color: #003366;
+  border: solid black 2px;
+  width: 300px;
+  height: auto;
+  margin: 20px 500px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile1 {
+  background-color: #003366;
+  border: solid black 2px;
+  width: 300px;
+  height: auto;
+  float: left;
+  margin: 8px 8px;
+  padding: 0 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.profile2 {
+  background-color: #003366;
+  border: solid black 2px;
+  width: 135px;
+  height: auto;
+  float: left;
+  margin: 8px 8px;
+  padding: 0 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.profile-img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  float: left;
+  border: solid red 1px;
+}
+
+.profile-text {
+  padding: 1px;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.profile-name {
+  text-decoration: none;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+.president {
+  text-decoration: none;
+  color: white;
+}
+
+.WCS {
+  float: left;
+}
+
+.about-title {
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-project-img {
+  width: 50%;
+  float: left;
+  padding: 30px;
+}
+
+.projects {
+  padding: 5px;
+}
+
+.WSC-img {
+  width: 33%;
+  float: left;
+  padding: 0;
+}
+
+div.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+  font-size: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.6vw;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0px;
+  position: fixed;
+}
